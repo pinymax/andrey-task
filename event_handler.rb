@@ -1,6 +1,6 @@
 require 'active_support/core_ext/date'
 
-class EventDateHandler
+class EventHandler
   def initialize(last_event_date)
     @last_event_date = Date.parse(last_event_date)
     @next_event_date = @last_event_date.next_month
