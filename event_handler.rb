@@ -11,7 +11,7 @@ class EventHandler
       @next_event_date = if last_week_of_the_month?
                            @next_event_date.last_weekday
                          else
-                           @next_event_date = @next_event_date.next_weekday
+                           @next_event_date.next_weekday
                          end
     end
 
